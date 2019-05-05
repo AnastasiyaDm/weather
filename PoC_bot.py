@@ -4,14 +4,12 @@ from flask import Flask, request
 import telebot
 from telebot import types
 
-
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 bot = telebot.TeleBot(BOT_TOKEN)
 server = Flask(__name__)
 
 WEATHER_API_TOKEN = os.environ.get("API_KEY")
 SERVER_URL = "https://test-weather-the-best-2.herokuapp.com"
-
 
 @bot.message_handler(commands=["start"])
 def start(message):

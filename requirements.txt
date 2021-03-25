@@ -19,7 +19,7 @@ psycopg2-binary==2.7.7
 pyflakes==2.1.1
 pyTelegramBotAPI==3.6.6
 pytz==2018.9
-PyYAML==5.1
+PyYAML==5.4
 requests==2.21.0
 simplejson==3.16.0
 six==1.12.0
